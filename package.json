@@ -1,0 +1,26 @@
+{
+  "name": "demo.git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npx ts-node server.ts",
+    "client": "cd client && ng serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aravinan33k/demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Aravinan33k/demo/issues"
+  },
+  "homepage": "https://github.com/Aravinan33k/demo#readme",
+  "dependencies": {
+    "concurrently": "^10.0.3"
+  }
+}
